@@ -1,0 +1,81 @@
+h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+ 
+  color:white;
+}
+
+body{
+	 background:#8e0e00;
+}
+
+.divTable{
+	 display: table;
+    text-align: center;
+    width: 60%;
+    margin: 10% auto 0;
+    border-collapse: separate;
+    font-weight: 400;
+    border-style: none;
+   }
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+	color:white;
+	font-size: 20px;
+	background-color: #972109;
+
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.divTableCell1{
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	background-color: #9c2f18;
+	color: white;
+	font-size: 20px;
+
+}
+
+.link{
+	color:white;
+}
+
+.button{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size:20px;
+}
+
+a{
+  background-color:#711806;
+  color: white;
+  padding: 20px ;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius:20px;
+  

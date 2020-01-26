@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Projekt-Form</title>
+	<meta charset="utf-8">
+	
+<link rel="stylesheet" type="text/css" href="../content/ProjektForm.css">
+</head>
+<body>
+	<div id="container">
+		<h1>Projekt-Form</h1>
+		<form action="/saveProjekt" method="POST">
+			<input type="hidden" value = "None" id="id_s" name="id_s" >
+			<div>
+				<label for="nummer_s"></label>
+				<input type="number" value = "" id="nummer_s" name="nummer_s"  placeholder="Nummer" class="input" min="10" max="1000" required>
+			</div>
+
+			<div>
+				<label for="bezeichnung_s"></label>
+				<input type="text" value="" id="bezeichnung_s" name="bezeichnung_s" placeholder="Bezeichnung" class="input" required>
+			</div>
+
+			<div>
+				<label for="beschreibung_s"></label>
+				<input type="text" value= "" id="beschreibung_s" name="beschreibung_s" placeholder="Beschreibung" class="input" required>
+			</div>
+
+			<div>
+				<label for="bearbeitungszeitraum_s"></label>
+				<input type="number" value ="" id="bearbeitungszeitraum_s" name="bearbeitungszeitraum_s" min="1" max="50" placeholder="Bearbeitungszeitraum" class="input" required>
+			</div>
+
+			<div>
+				<label for="budget_s"></label>
+				<input type="number" value= "" id="budget_s" name="budget_s" placeholder="Budget" class="input" min="0" max="2000" step="5" required>
+			</div>
+
+			<div>
+				<select name="kunden_s" required>
+					<option value="" disabled selected>Kunden-ID</option>
+					<option value=0>0</option>
+					<option value=1>1</option>
+					<option value=2>2</option>
+				</select>
+			</div>
+			
+			<div>
+				<input type="submit" value="Speichern" class="input_submit">
+			</div>
+			<div class="button">
+				<a href="/listProjekt" class="link">Abbrechen</a>
+			</div>
+			
+		</form>
+	</div>
+	<script src="../content/ProjektForm.js"></script>
+</body>
+</html>

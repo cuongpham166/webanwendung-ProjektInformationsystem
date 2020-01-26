@@ -1,0 +1,73 @@
+#container{
+	 position:relative;
+ 	 top:100px;
+}
+
+html, body{
+  background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body{
+  counter-reset:section;
+  text-align:center;
+}
+
+#container h1{
+  text-align:center;
+  color:#fff;
+  font-weight:100;
+  font-size:2em; 
+  margin-bottom:10px;
+  text-transform: uppercase;
+}
+
+form{
+  margin-top:25px;
+  display:inline-block;
+}
+
+input{
+  border:none;
+  outline:none;
+  display:inline-block;
+  height:34px;
+  vertical-align:middle;
+  position:relative;
+  bottom:14px;
+  right:9px;
+  border-radius:22px;
+  width:220px;
+  box-sizing:border-box;
+  padding:0 18px; 
+}
+
+
+
+a{
+ margin-top: 40px;
+ color:white;
+}
+
+
+.input{
+	margin-bottom: 20px;
+}
+
+.button{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size:20px;
+}
+
+a{
+  background-color: #0d74ca;
+  color: white;
+  padding: 20px ;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius:20px;
+  
+

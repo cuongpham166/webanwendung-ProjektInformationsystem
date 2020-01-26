@@ -1,0 +1,35 @@
+
+ body{
+	background: linear-gradient(to bottom, #C6426E, #642B73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+#container{
+	 text-align: center;
+}
+
+#header{
+	margin-top: 50px;
+	text-transform: uppercase;
+	color:white;
+	font-size: 35px;
+}
+
+
+
+.button{
+	padding-top: 80px;
+	padding-bottom: 40px;
+	font-size:30px;
+}
+
+
+a{
+  background-color:#41295a;
+  color: white;
+  padding: 30px ;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius:10px;
+}
